@@ -1,0 +1,85 @@
+     RESUMEN DIARIO Y MENSUAL DE DATOS                     
+     =================================                      
+En este apartado están accesibles los datos diarios y mensuales 
+de una amplia selección de estaciones.
+ 
+En algunas estaciones se incluyen datos desde 1920.
+
+Para algunas localidades existe más de una estación, que no se solapan en el tiempo, 
+o lo hacen durante un breve período, y normalmente es debido a cambios de emplazamiento 
+del observatorio, por lo que la serie más actual puede considerarse como continuación 
+de la más antigua.
+
+La lista de estaciones está en el fichero maestro.csv
+
+     ORIGEN DE LOS DATOS
+     ===================
+Los datos provienen de la red de estaciones de AEMET.
+
+     FORMATO DE LOS FICHEROS:
+     ========================
+Todos los ficheros se ofrecen comprimidos. Las indicaciones
+que siguen se refieren a los ficheros descomprimidos.
+
+Los ficheros estan en formato .csv
+
+Los ficheros de datos constan de los siguientes campos,
+separados por punto y coma:
+
+    Indicativo climatológico de la estación
+    Nombre de la estación
+    Provincia
+    Altitud de la estación en metros
+    Campos de fecha
+    Variables meteorológicas
+
+(Las varibles meteorológicas se describen en los fichero LEEME_DATOS.txt de cada directorio)
+(Las horas de las observaciones son UTC)
+
+El fichero maestro, consta de los siguientes campos,
+separados por punto y coma:
+
+    Indicativo climatológico de la estación
+    Nombre de la estación
+    Provincia
+    Altitud de la estación en metros
+    Latitud en formato ggmmss
+    Longitud en formato ggmmss, con indicación de la orientación:
+                                E: Este, W: Oeste
+    Indicativo sinóptico (si lo hay)                               
+
+    Para algunas localidades existe más de una estación, que no se solapan en el tiempo,
+    o lo hacen durante un breve periodo, y normalmente es debido a cambios de emplazamiento
+    del observatorio, por lo que la serie más actual puede considerarse como continuación
+    de la más antigua.
+    
+     TIPOS DE FICHERO:
+     =================
+Hay dos tipos de ficheros de datos:
+    Ficheros con datos diarios
+    Ficheros con datos mensuales
+
+A su vez, para cada uno de estos tipos, los datos se presentan agrupados
+de dos maneras distintas:
+    Por estación (todos los datos de una estación)
+    Por año (todos los datos de todas las estaciones para un año dado)
+     
+     DIRECTORIOS DE ALMACENAMIENTO:
+     ==============================
+Partiendo del directorio raiz hay dos directorios:
+    valores_diarios (para los datos diarios)
+    valores_mensuales (para los datos mensuales)
+     
+En cada uno de estos directorios hay otros dos directorios:
+    anual (para los datos agrupados por años)
+    estacion (para los datos agrupados por estaciones)
+
+
+     NOMBRES DE LOS FICHEROS:
+     ========================
+     
+Para los ficheros con los datos agrupados por estación:
+    CCCCC.csv, siendo CCCCC el indicativo climatológico de la estación.
+
+Para los ficheros con los datos agrupados por año:
+    AAAA.csv, siendo AAAA el año al que corresponden los datos.
