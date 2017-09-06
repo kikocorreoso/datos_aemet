@@ -117,7 +117,7 @@ for key in keys:
         <h2>Complete stations dataset in HDF5</h2>
         <p>HDF5: <a href="https://github.com/kikocorreoso/datos_aemet/raw/master/hdf5/aemet.h5.gz">link</a><p>
         <h2>Read about the datasets</h2>
-        <p>HDF5: <a href="https://github.com/kikocorreoso/datos_aemet/blob/master/README.md">link</a><p>
+        <p><a href="https://github.com/kikocorreoso/datos_aemet/blob/master/README.md">link</a><p>
         """
         iframe = branca.element.IFrame(html=html, width=500, height=300)
         popup = folium.Popup(iframe, max_width=500)
