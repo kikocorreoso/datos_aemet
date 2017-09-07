@@ -516,7 +516,7 @@ send a [pull request with your ideas](https://github.com/kikocorreoso/datos_aeme
 # TO-DO
 
 * A sqlite version but I have to think about the best scheme to keep things simple.
-* A front-end showing the location of the stations with links to each file.
+* ~~A front-end showing the location of the stations with links to each file.~~ See https://kikocorreoso.github.io/datos_aemet/
 
 # Tell me about how you use the data
 
