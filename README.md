@@ -526,4 +526,4 @@ useful are the provided formats, if you have any need regarding these datasets,.
 # Alternatives to these datasets
 
 I have found the excellent work done by [@chucheria](https://github.com/chucheria)
-available on on [data.world](https://data.world/chucheria/spain-weather-data-from-1920).
+available on [data.world](https://data.world/chucheria/spain-weather-data-from-1920).
